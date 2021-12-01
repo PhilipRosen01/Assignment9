@@ -1,2 +1,8 @@
 <app-content-list></app-content-list>
+<a href="content">Content List</a><br>
+<a href="content/42">This is a detailed view</a><br>
+<a href="thiswillnotwork">Invalid page link</a><br> <router-outlet></router-outlet>
+<a routerLink="content" routerLinkActive="active">Content List</a><br>
+<a routerLink="content/42" routerLinkActive="active">The answer to the universe and everything</a><br>
+<a routerLink="thiswillnotwork" routerLinkActive="active">Invalid page link</a><br> <router-outlet></router-outlet>
 <!-- <app-messages></app-messages> -->
